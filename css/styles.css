@@ -228,10 +228,22 @@ nav .logo {
 .form-content .tresHermanos .holder .short-box {
   width: 103px;
 }
-.form-content .tresHermanos .holder i {
+.form-content .tresHermanos .holder .down-one {
   position: absolute;
   left: 180px;
-  top: 20px;
+  top: 19px;
+}
+.form-content .tresHermanos .holder .down-two {
+  position: absolute;
+  position: absolute;
+  left: 200px;
+  top: 19px;
+}
+.form-content .tresHermanos .holder .down-three {
+  position: absolute;
+  position: absolute;
+  left: 190px;
+  top: 19px;
 }
 .form-content .tresHermanos input {
   width: 344px;
