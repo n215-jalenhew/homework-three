@@ -1,0 +1,35 @@
+.footer {
+	height: 100px;
+	width: $banner-footer-width;
+	background-color: $site-blue;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	.logo {
+		width: 92px;
+		height: 40px;
+		// background-color: bisque;
+		background-image: url(../images/logo-white.png);
+		color: $site-white;
+	}
+
+	.copyright {
+		width: 350px;
+		height: 15px;
+		color: white;
+		font-size: 12px;
+		margin-left: 179px;
+		font-family: gill_sans;
+	}
+
+	.media {
+		width: 109.38px;
+		height: 22.46px;
+		color: white;
+		font-size: 22.46px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+}

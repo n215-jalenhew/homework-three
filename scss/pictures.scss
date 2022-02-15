@@ -1,0 +1,130 @@
+.pictures {
+	height: 304px;
+	max-width: $home-form-width;
+	margin: 0 auto;
+	margin-top: -43px;
+	// background-color: crimson;
+	display: flex;
+	justify-content: space-evenly;
+
+	.tour-one {
+		height: 304px;
+		width: 236px;
+		background-color: aqua;
+		background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-01.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-right: 55px;
+		display: flex;
+		flex-direction: column;
+
+		.nation {
+			margin: 0 auto;
+			font-size: 60px;
+			color: white;
+			margin-top: 47px;
+			font-family: proximanova;
+		}
+
+		.price {
+			margin: 0 auto;
+			font-size: 30px;
+			color: white;
+			font-family: proximanova;
+		}
+
+		.learnMore {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+			margin-top: 56px;
+			background-color: $site-blue;
+			height: 40px;
+			width: 133px;
+			color: white;
+			border-radius: 20px;
+		}
+	}
+
+	.tour-two {
+		height: 304px;
+		width: 236px;
+		background-color: aqua;
+		background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-02.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-right: 55px;
+		display: flex;
+		flex-direction: column;
+
+		.nation {
+			margin: 0 auto;
+			font-size: 60px;
+			color: white;
+			margin-top: 47px;
+			font-family: proximanova;
+		}
+
+		.price {
+			margin: 0 auto;
+			font-size: 30px;
+			color: white;
+			font-family: proximanova;
+		}
+
+		.learnMore {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+			margin-top: 56px;
+			background-color: $site-blue;
+			height: 40px;
+			width: 133px;
+			color: white;
+			border-radius: 20px;
+		}
+	}
+
+	.tour-three {
+		height: 304px;
+		width: 236px;
+		background-color: aqua;
+		background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-03.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		flex-direction: column;
+
+		.nation {
+			margin: 0 auto;
+			font-size: 60px;
+			color: white;
+			margin-top: 47px;
+			font-family: proximanova;
+		}
+
+		.price {
+			margin: 0 auto;
+			font-size: 30px;
+			color: white;
+		}
+
+		.learnMore {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+			margin-top: 56px;
+			background-color: $site-blue;
+			height: 40px;
+			width: 133px;
+			color: white;
+			border-radius: 20px;
+		}
+	}
+}

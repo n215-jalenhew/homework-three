@@ -1,0 +1,149 @@
+.form-content {
+	max-width: $home-form-width;
+	// background-color: yellow;
+	min-height: 58px;
+	margin: $center;
+	margin-top: 40px;
+	padding-bottom: 100.4px;
+
+	h1 {
+		font-family: proximanova;
+		font-size: 60px;
+	}
+
+	.checkIn {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+
+		.ctext {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 18px;
+			font-family: gill_sans;
+		}
+
+		.holder {
+			position: relative;
+
+			.longerBox {
+				width: 698px;
+			}
+
+			.icon {
+				position: absolute;
+				top: 20px;
+				right: 10px;
+			}
+
+			input {
+				width: 344px;
+				height: 58px;
+				padding-left: 10px;
+				border: 2px solid $site-blue;
+				font-family: gill_sans;
+			}
+		}
+	}
+
+	.nameMail {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+
+		.holder {
+			position: relative;
+
+			.short-box {
+				width: 103px;
+			}
+
+			.long-box {
+				width: 453px;
+			}
+
+			.icon {
+				position: absolute;
+				top: 20px;
+				right: 10px;
+			}
+
+			input {
+				width: 344px;
+				height: 58px;
+				padding-left: 10px;
+				border: 2px solid $site-blue;
+				font-family: gill_sans;
+			}
+		}
+	}
+
+	.tresHermanos {
+		width: $home-form-width;
+		min-height: 58px;
+		// background-color: aqua;
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+
+		.holder-holder {
+			margin-left: 81.5px;
+		}
+
+		.holder {
+			position: relative;
+			display: flex;
+
+			.short-box {
+				width: 103px;
+			}
+
+			i {
+				position: absolute;
+				left: 180px;
+				top: 20px;
+			}
+		}
+		input {
+			width: 344px;
+			height: 58px;
+			padding-left: 10px;
+			border: 2px solid $site-blue;
+			font-family: gill_sans;
+		}
+
+		.adult {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 56.7px;
+		}
+	}
+
+	.message {
+		.holder {
+			margin-top: 20px;
+			input {
+				height: 192px;
+				width: 818px;
+				border: 2px solid $site-blue;
+				font-family: gill_sans;
+			}
+		}
+	}
+
+	.submit {
+		height: 60.59px;
+		width: 813px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		margin-top: 37px;
+		background-color: $site-blue;
+		border-radius: 30px;
+		font-family: gill_sans;
+		font-size: 15px;
+	}
+}
